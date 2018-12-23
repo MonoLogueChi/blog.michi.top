@@ -283,6 +283,9 @@
   
   
   
+    <br>
+    <a onclick="mdpage()" target="_blank" style="cursor:pointer">获取文章MarkDown文件</a>
+  
    
   <span style="float:right;color:#0094d5" id="/hello-world.html" class="leancloud_visitors" data-flag-title="Hello World">
       <span class="post-meta-item-text">本文阅读量 </span>
@@ -291,7 +294,7 @@
  
 </nav>
 <script>
-  var mdhost = '';
+  var mdhost = 'https://raw.githubusercontent.com/MonoLogueChi/blog.michi.top/master/source/_posts';
   var mdurl = 'hello-world.html'.replace('.html', '.md');
   function mdpage() {
     window.open(mdhost + "/" + mdurl);
